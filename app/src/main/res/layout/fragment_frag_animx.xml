@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cdsm.tp012.FragAnimx">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/imgBtnCat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/cat_smile"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/imgBtnDog"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/dog_vector"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</FrameLayout>
